@@ -1,0 +1,237 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Thasadith', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration:none;
+    color:black !important;
+}
+
+a:link{text-decoration:none;}
+a:hover{
+    text-decoration:none;
+}
+
+a:link{
+    background:transparent !important;
+}
+
+a:visited{
+    background:transparent !important;
+}
+
+a:active{
+    background:transparent !important;
+}
+.header-padding{
+    padding-top: 80px;
+    
+}
+.bandeau{
+    background:hsl(60, 56%, 91%) !important;
+}
+
+.white{
+    background:white !important;
+    border:1px solid black;
+}
+
+.dark{
+    background:#171717;
+}
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center !important;
+  }
+  
+.list-group-item {
+    border: 0.5px solid #ccc !important;
+    text-decoration:none;
+    color:black !important;
+}
+
+.list-group-item:active {
+    border: 0.5px solid #ccc !important;
+    color: black !important;
+}
+/*DEBUT HEADER*/
+.logo{
+    font-size: 36px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.image-logo{
+    width:60px;
+    height: 60px;     
+}
+.bouton-beige:hover{
+    background:#f5f5dc !important;
+    /*color:white !important;*/
+}
+/*FIN HEADER*/
+/*PAGE INDEX*/
+.c-background{
+    background:rgba(245, 245, 220, 0.7);
+    border-radius:20px;
+    color:black;
+}
+.button-v{
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: black !important;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    margin: 20px 30px;
+}
+
+.button-v span{
+    display: block;
+    padding: 25px 80px;
+}
+
+.button-v::before, .button-v::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: black;
+}
+
+span::before, span::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: black;
+}
+
+.button-v:hover::before, .button-v:hover::after{
+    width: 100%;
+}
+
+.button-v:hover span::before, .button-v:hover span::after{
+    height: 100%;
+}
+
+.btn-3::after{
+    left: 0;
+    bottom: 0;
+    transition-delay: 0.6s;
+}
+
+.btn-3 span::after{
+    transition-delay: 0.4s;
+    right: 0;
+    bottom: 0;
+}
+
+.btn-3::before{
+    right: 0;
+    top: 0;
+    transition-delay: 0.2s;
+}
+
+.btn-3 span::before{
+    transition-delay: 0s;
+    left: 0;
+    top: 0;
+}
+
+.btn-3:hover::after{
+    transition-delay: 0s;
+}
+
+.btn-3:hover span::after{
+    transition-delay: 0.2s;
+}
+
+.btn-3:hover::before{
+transition-delay: 0.4s;
+}
+
+.btn-3:hover span::before{
+    transition-delay: 0.6s;
+}
+.lead{
+    font-family: 'Roboto Condensed', sans-serif;
+}  
+.carousel-caption{
+    display:none;
+}
+/*FIN PAGE INDEX*/
+/*DEBUT PAGE CONNECTION*/
+.formulaire-min-height{
+    min-height:90vh;
+}
+.connection-padding{
+    padding-top:50px;
+}
+/*FIN CONNECTION*/
+
+/*DEBUT FOOTER*/
+.footer{
+    color:black;
+    min-height:100px;
+    background-color:#f5f5dc;
+}
+
+
+.footer div{
+    padding-top:15px;
+}
+
+.btn-footer:hover{
+    color:black !important;
+}
+
+#cookieChoiceInfo {
+    font-size:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.row div.col-md-3 form button{
+    height:38px;
+    width:38px;
+}
+
+/*END FOOTER*/
+
+
+
+@media screen and (min-width:789px){
+    
+    .carousel-item {
+        height: 80vh;
+    }
+    .carousel-caption{
+        display:block;
+    }
+    .bouton-beige{
+        color:black !important;
+        border:1px solid ;
+        border-radius:8px;
+        transition:.4s;
+        margin-right:4px;
+    }
+	
+}
+@media screen and (min-width: 1187px){
+	
+	
+
+}
